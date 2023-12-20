@@ -4,8 +4,9 @@ import {useNavigate} from 'react-router-dom';
 
 import Proj1 from '../../images/GBMFinder.png';
 import Proj2 from '../../images/blackjack.jpg';
-import Proj3 from '../../images/Dyslexifi.png';
+import Proj3 from '../../images/scheduler.png';
 import Proj4 from '../../images/MusicAccessor.png';
+import Proj5 from '../../images/GoalQuest.png';
 
 import './portfolio.css';
 
@@ -38,7 +39,7 @@ const Portfolio = () => {
                     <h3>Music Accessor</h3>
                 </div>
                 <div>
-                <img src={Proj4}/>
+                    <img src={Proj5}/>
                     <h3>GoalQuest</h3>
                 </div>
 
